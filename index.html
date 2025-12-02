@@ -1,11 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sweet Delights Bakery</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="nav_logos">
+            <p>Sweet Delights Bakery</p>
+          </div>
+          <div class="nav_bar">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Menu</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="hero_section">
+        <h1>Freshly Baked Happiness Every Day</h1>
+        <p>
+          Indulge in our handcrafted pastries, made with love and the finest
+          ingredients. From classic croissants to <br />
+          decadent cakes, we have something to statisfy every sweet tooth
+        </p>
+        <button>Explore Our Menu</button>
+      </div>
+      <div class="Product_section">
+        <h1>Featured Products</h1>
+        <div class="Card_section">
+          <div class="Card_1">
+            <img
+              src="asset/image/image2.png"
+              alt=""
+              width="300px"
+              height="300px"
+            />
+            <h6>Decadent Chocolate Cake</h6>
+            <p>
+              Rich chocolate cake with creamy <br />
+              fronsting
+            </p>
+          </div>
+          <div class="Card_2">
+            <img
+              src="asset/image/image3.png"
+              alt=""
+              width="300px"
+              height="300px"
+            />
+            <h6>Fresh Fruit Tart</h6>
+            <p>
+              Seasonal fruit tart with a buttery <br />
+              crust
+            </p>
+          </div>
+          <div class="Card_3">
+            <img
+              src="asset/image/image4.png"
+              alt=""
+              width="300px"
+              height="300px"
+            />
+            <h6>Assorted Macarons</h6>
+            <p>Colorful and flavorful macarons</p>
+          </div>
+        </div>
+      </div>
+      <div class="About_section">
+        <div class="box">
+          <b>Our Story</b>
+        </div>
+        <p>
+          At Sweet Delights Bakery, our joumey began with a simple passion: to
+          create moments of joy through the art of baking Founded by Chef Amelia
+          Hayes, our bakery is a testament to the belief that every dessert
+          should be a celebration of flavor, crafted with love and the finest
+          ingredients. From our humble beginnings in a small kitchen, we've
+          grown into a beloved local spot, known for our signature pastries,
+          custom cakes, and warm, inviting atmosphere. Our commitment quality
+          and creativity ensures that each bite is an experience to remember.
+        </p>
+      </div>
+      <div class="Contact_section">
+        <h2>Contact Form</h2>
+        <label for="nom">Nom </label> <br />
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          placeholder="Nom"
+          required
+        /><br />
+
+        <label for="email">Email </label> <br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        /><br />
+
+        <label for="Subject">Subject </label> <br />
+        <input
+          type="subject"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+          required
+        /><br />
+
+        <label for="message">Message </label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="30"
+          placeholder="Message"
+        ></textarea
+        ><br /><br />
+        <button type="submit">Send Message</button>
+      </div>
+      <footer>
+        <p>@ 2025 Sweet Delights Bakery All rights reserved</p>
+      </footer>
+    </div>
+  </body>
 </html>
